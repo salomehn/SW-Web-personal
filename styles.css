@@ -1,0 +1,52 @@
+
+h2 {
+  background-color: #b57ee5;
+}
+body {
+  background-color: #d8b4f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+#inicio {
+  background-image: url("imagenes/fondo.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#inicio h1 {
+  color: white;        
+  font-weight: 800;    
+  font-size: 40px;     
+}
+
+#inicio p {
+  color: #dddddd;      
+  font-weight: 400;    
+  font-size: 15px;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('img/banner.jpg') center/cover no-repeat;
+}
+
+h1, h2 {
+  letter-spacing: 2px;
+}
+
+.card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
